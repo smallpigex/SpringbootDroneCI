@@ -11,4 +11,11 @@ class AppTest {
         assertTrue(true);
     }
 
+    @Test
+    public void testApp2() {
+        App app = new App();
+        assertEquals("hello", app.sayHell());
+    }
+
+
 }
