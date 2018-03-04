@@ -1,6 +1,6 @@
 pipeline:
   build:
-    image: maven
+    image: maven:3.3.9-jdk8
     commands:
       - mvn clean test
 +branches: dev
