@@ -1,11 +1,8 @@
-clone:
-  git:
-    image: plugins/git
-    depth: 50
-    tags: true
 pipeline:
   build:
-    image: maven:3.5.2-jdk-8
+    image: 3.5.2-jdk-8
+    pull: true
     commands:
-      - mvn clean test
+      - mvn clean
+      - mvn test
 +branches: dev
