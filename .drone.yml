@@ -5,7 +5,7 @@ clone:
     tags: true
 pipeline:
   build:
-    image: maven:3.3.9-jdk8
+    image: maven:3.5.2-jdk-8
     commands:
       - mvn clean test
 +branches: dev
