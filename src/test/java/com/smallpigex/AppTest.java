@@ -14,7 +14,7 @@ class AppTest {
     @Test
     public void testApp2() {
         App app = new App();
-        assertEquals("hello2", app.sayHell());
+        assertEquals("hello", app.sayHell());
     }
 
 
