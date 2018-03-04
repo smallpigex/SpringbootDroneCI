@@ -1,6 +1,6 @@
 pipeline:
   build:
-    image: 8-jdk
+    image: maven
     commands:
       - mvn clean test
 +branches: dev
